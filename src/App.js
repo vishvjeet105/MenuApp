@@ -5,6 +5,6 @@ import * as MenuData from './menu.json';
 import Root from './components/Root';
 function App() {
 	//console.log('MenuData', MenuData.menuDetails);
-	return <Root />;
+	return <Root menuDataDetails={MenuData.menuDetails}/>;
 }
 export default App;

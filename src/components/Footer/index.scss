@@ -1,0 +1,16 @@
+.all-footer-btn {
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background-color: #f2f2f2;
+	justify-content: space-around;
+	padding: 10px 0px;
+	.footer-btn {
+		background-color: #ffd24d;
+		border-radius: 20px;
+		padding: 8px 25px;
+		width: 32%;
+	}
+}

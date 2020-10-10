@@ -1,0 +1,11 @@
+.left-side-container {
+	height: 100vh;
+	width: 15%;
+	.active {
+		background-color: #f2b90d;
+	}
+	.active,
+	.in-active {
+		cursor: pointer;
+	}
+}
